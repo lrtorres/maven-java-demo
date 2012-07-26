@@ -10,6 +10,7 @@ public class HelloWorld
 {
     public static void main( String[] args )
     {
+	Conversation conv = new Conversation();
 	Hi helloworld = new Hi();
 	Hi somehello1 = new Hi();
 	Hi somehello2 = new Hi();

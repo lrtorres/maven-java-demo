@@ -33,6 +33,9 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+	System.out.println("Testing if tconv instantiated properly...");
+	Conversation tconv = new Conversation();
+	assertTrue (tconv.getValue() == 1);
+        /*assertTrue( true );*/
     }
 }
