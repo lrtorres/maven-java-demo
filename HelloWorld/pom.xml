@@ -34,8 +34,8 @@
            <!--<finalName>${project.name}</finalName>-->
            <archive>
              <manifest>
-              <addClasspath>true</addClasspath>
               <mainClass>edu.berkeley.path.HelloWorld</mainClass>
+              <addClasspath>true</addClasspath>
              </manifest>
            </archive>
           </configuration>
@@ -44,7 +44,6 @@
       </plugin>
     </plugins>
   </build>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
